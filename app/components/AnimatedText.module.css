@@ -1,0 +1,16 @@
+.animatedText {
+  animation: switch-font 1s linear infinite; /* Animation definition */
+  display: inline-block; /* Maintain inline behavior */
+}
+
+@keyframes switch-font {
+  0% {
+    font-family: "Darker Grotesque"; /* Initial font */
+  }
+  50% {
+    font-family: "Zeyada"; /* Alternate font for 2 frames */
+  }
+  100% {
+    font-family: "Darker Grotesque"; /* Initial font */
+  }
+}
